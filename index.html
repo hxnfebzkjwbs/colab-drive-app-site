@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Colab&Drive reads research files from Google Drive, processes them in Google Colab, and saves results back to Drive.">
+  <title>Colab&amp;Drive</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <header><span class="label">Research workflow</span><h1>Colab&amp;Drive</h1></header>
+    <p class="intro">Use Google Drive files in your Google Colab research notebooks and save the results back to Drive.</p>
+    <p lang="zh-CN">在 Google Colab 中读取 Google Drive 上的研究数据，并将生成的结果写回 Drive。</p>
+    <h2>How it works</h2>
+    <ol>
+      <li>Authorize the desktop OAuth client to access your Drive account.</li>
+      <li>Run a research job in Colab. The job reads files from the Drive folders configured for that run and processes them in the Colab runtime.</li>
+      <li>Save the output files to the Drive folder configured for the job.</li>
+    </ol>
+    <h2>Why the app asks for Drive access</h2>
+    <p>The workflow reads existing research files and writes output files in Drive. The permission displayed by Google covers all Drive files; the research job uses the folders configured for that run. This informational website does not ask for Google authorization.</p>
+    <footer><a href="./privacy.html">Privacy policy</a><a href="./terms.html">Terms of use</a></footer>
+  </main>
+</body>
+</html>
